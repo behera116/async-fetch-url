@@ -1,0 +1,24 @@
+{
+  "name": "async-fetch-url",
+  "version": "1.0.0",
+  "description": "aysnc/await implementation for fetchUrl function of fetch package with the preservation of all parent functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "fetch",
+    "asyncFetchUrl"
+  ],
+  "author": "Ananda Behera",
+  "homepage": "https://github.com/behera116/async-fetch-url/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behera116/async-fetch-url.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}

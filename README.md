@@ -5,6 +5,32 @@ async/await implementation of fetchUrl function of fetch package.
 
     npm install async-fetch-url
 
+## Fetch from url
+
+`fetch.fetchUrl(url [, options])`
+
+Where
+
+  * **url** is the url to fetch
+  * **options** is an optional options object
+
+[Options param is same as fetch implementation](https://github.com/andris9/fetch/blob/master/README.md)
+
+Possible options params
+```javascript
+{
+    headers: {
+        "X-My-Header": "Custom header",
+        "User-Agent": "MyUseragent/1.0"
+    },
+    cookies: ["name=value", "key=value; path=/; secure"],
+    maxRedirects: 100,//use `disableRedirects: true` to disable redirection, default maxRedirects is 10,
+    disableGzip: true //default value is false. Gzip and Deflate is on
+    
+}
+
+```
+
 ## Basic implementation
 
 ```js

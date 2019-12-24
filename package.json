@@ -1,6 +1,6 @@
 {
   "name": "async-fetch-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aysnc/await implementation for fetchUrl function of fetch package with the preservation of all parent functionality",
   "main": "index.js",
   "scripts": {

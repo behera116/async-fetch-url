@@ -14,7 +14,7 @@ Where
   * **url** is the url to fetch
   * **options** is an optional options object
 
-[Options param is same as fetch implementation](https://github.com/andris9/fetch/blob/master/README.md)
+[Options param is same as fetch implementation](https://www.npmjs.com/package/fetch#options)
 
 Possible options params
 ```javascript
@@ -53,4 +53,6 @@ Output format:
 }
 
 ```
+[Meta object details](https://www.npmjs.com/package/fetch#meta-object)
+
 ---

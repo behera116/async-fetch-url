@@ -1,14 +1,9 @@
 const fetch = require('fetch');
 const fetchUrl = fetch.fetchUrl;
 
-const asyncFetchUrl = async(url,options,callback) => {
+const asyncFetchUrl = async(url,options) => {
     
     try{
-        if (!callback && typeof options === 'function') {
-            callback = options;
-            options = undefined;
-        }
-
         options = options || {};
         return new Promise( (resolve,reject) => {
             fetchUrl(url,options,(error,meta,data) => {
